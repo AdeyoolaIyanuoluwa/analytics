@@ -1,0 +1,49 @@
+@import "../../styles//color.scss";
+.card-container{
+    width: 250px;
+    height: 345px;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: #0f1f4b;
+    color: white;
+    &:hover{
+        transition:  ease-in 1000ms;
+        // transition-duration: 1000ms;
+        // transition-timing-function: ease;
+        background-color: white;
+        color: $secondary-color;
+        button{
+            background-color: #EF2A82;
+            border: none;
+            transition:  ease-in 1000ms;
+            // transition-duration: 1000ms;
+            // transition-timing-function: ease;
+        }
+    }
+}
+.cardtitle{
+    font-size: 35px;
+    font-weight: 500;
+}
+.subtext{
+    color: $primary-color;
+    position: relative;
+    bottom: 28px;
+}
+.hr{
+    border-color: rgb(131, 130, 130);
+}
+.cardprice{
+    .price{
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+}
+.duration{
+    color: $primary-color;
+}
+.cardbutton{
+    position: relative;
+    top: 20px;
+}

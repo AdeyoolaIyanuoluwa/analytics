@@ -1,0 +1,37 @@
+@import "../../styles/color.scss";
+.Navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 20px;
+    background-color: transparent;
+   
+}
+.li{
+    display: flex; 
+}
+.image{
+    margin-right: 100px;
+    // border: thin solid red;
+    padding-left: 96px;
+    width: 16%;
+}
+.nav-link{
+    position: relative;
+    top: 12px;
+    margin-right: 20px;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: $primary-color;
+}
+.signup{
+    display: flex;
+    position: relative;
+    left: 400px;
+}
+.button{
+    position: relative;
+    top: 4px;
+}

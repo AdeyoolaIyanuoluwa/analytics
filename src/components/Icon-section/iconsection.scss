@@ -1,0 +1,20 @@
+@import "../../styles/color.scss";
+.image{
+    width: 12%;
+    text-align: center;
+    position: relative;
+    right: 12px;
+}
+.title{
+    color: $secondary-color;
+    width: 90%;
+    position: relative;
+    bottom: 15px;
+}
+.subtitle{
+    font-size: 13px;
+    color: $primary-color;
+    position: relative;
+    width: 90%;
+    bottom: 25px;
+}

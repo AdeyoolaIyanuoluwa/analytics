@@ -1,0 +1,43 @@
+@import "../../styles/color.scss";
+.Navbar2{
+    list-style-type: none;
+    margin: 0;
+    padding: 20px;
+    background-color: transparent;
+}
+.li2{
+    display: flex; 
+}
+.image2{
+    margin-right: 220px;
+    // border: thin solid red;
+    // padding-left: 96px;
+    width: 16%;
+}
+.nav-link{
+    position: relative;
+    top: 12px;
+    margin-right: 20px;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: $primary-color;
+}
+.socials{
+    width: 12%;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 9px;
+    left: 220px;
+    .social-img{
+        top: 9px;
+        width: 10px;
+    }
+}
+.button{
+    position: relative;
+    top: 4px;
+}

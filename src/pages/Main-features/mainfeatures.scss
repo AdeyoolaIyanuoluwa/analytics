@@ -1,0 +1,19 @@
+@import "../../styles/color.scss";
+
+.main-container{
+    padding-left: 50px;
+        width: 70%;
+        margin: auto;
+        padding-bottom: 40px;
+    h1{
+        text-align: center;
+        color: #172755;
+    }
+    p{
+        color: $primary-color;
+    }
+}
+.icon-section{
+    display: flex;
+    text-align: center;
+}

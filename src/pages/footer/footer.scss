@@ -1,0 +1,35 @@
+@import '../../styles/color.scss';
+.footer{
+    background-image: url("../../assets/background-bottom.png");
+    background-size: auto;
+    background-repeat: no-repeat;
+      min-height: 1000px;
+
+}
+.pricing-container{
+    text-align: center;
+    position: relative;
+    top: 250px;
+    width: 73.8%;
+    margin: auto;
+    .pricing-plan{
+        color: white;
+    }
+    .sub-text{
+        width: 50%;
+        margin: auto;
+        color: $primary-color;
+        font-size: 12.9px;
+    }
+}
+.card{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+   
+}
+.footernav{
+    border-top: thin solid rgb(65, 62, 62);
+    position: relative;
+    top: 100px;
+}

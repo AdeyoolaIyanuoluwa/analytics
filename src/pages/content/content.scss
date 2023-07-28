@@ -1,0 +1,38 @@
+@import "../../styles/color.scss";
+.section-container{
+        width: 73.8%;
+        margin: auto;
+
+}
+.title-section{
+    display: flex;
+    padding-bottom: 20px;
+    width: 100%;
+    justify-content: space-between;
+    margin: 0, auto;
+    align-items: center;
+    .title{
+        color: $secondary-color;
+        width: 64%;
+        font-size: 30px;
+    }
+    .sub-title{
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 27px;
+        color: #8794BA;
+        position: relative;
+        bottom: 52px;
+    }
+    .img{
+        width: 550px;
+        position: relative;
+        left: 24px;
+    }
+   
+    .img1{
+        width: 550px;
+        position: relative;
+        right: 24px;
+    }
+}
