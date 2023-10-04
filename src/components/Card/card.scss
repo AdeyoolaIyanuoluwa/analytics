@@ -7,7 +7,7 @@
     background-color: #0f1f4b;
     color: white;
     &:hover{
-        transition:  ease-in 1000ms;
+        transition:  ease-in 600ms;
         // transition-duration: 1000ms;
         // transition-timing-function: ease;
         background-color: white;
@@ -15,7 +15,7 @@
         button{
             background-color: #EF2A82;
             border: none;
-            transition:  ease-in 1000ms;
+            transition:  ease-in 500ms;
             // transition-duration: 1000ms;
             // transition-timing-function: ease;
         }

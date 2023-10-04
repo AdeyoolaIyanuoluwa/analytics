@@ -33,7 +33,7 @@ const Content = () => {
 
         <Section title="Fully customizable to address your needs " subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum nisi aliquet volutpat pellentesque volutpat est. Sapien in etiam vitae nibh nunc mattis imperdiet sed nullam. Vitae et, tortor pulvinar risus pulvinar sit amet." image={screen1} leftImage />
 
-        <Section title="Pre-built Dashboard Templates" subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum nisi aliquet volutpat pellentesque volutpat est. Sapien in etiam vitae nibh nunc mattis imperdiet sed nullam. Vitae et, tortor pulvinar risus pulvinar sit amet." image={screen2} />
+        <Section title="Pre-built Dashboard Templates" subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum nisi aliquet volutpat pellentesque volutpat est. Sapien in etiam vitae nibh nunc mattis imperdiet sed nullam. Vitae et, tortor pulvinar risus pulvinar sit amet." image={screen2}/>
     </div>
   )
 }
